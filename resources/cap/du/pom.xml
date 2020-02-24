@@ -32,7 +32,7 @@
 		</dependency>
 	</dependencies>
 
-	<profiles>
+	<!---profiles>
 		<profile>
 			<id>release-jboss5</id>
 			<build>
@@ -56,7 +56,12 @@
 							<execution>
 								<id>deploy-DU</id>
 								<phase>install</phase>
-								<goals>
+								<goals></goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build-->
 
 	<profiles>
 		<profile>
